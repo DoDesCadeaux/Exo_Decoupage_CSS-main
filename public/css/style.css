@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0;
 }
 
 #newsletter{
@@ -214,6 +214,7 @@ footer >  p {
   margin-left: 85vh;
   padding-top: 5vh;
   padding-bottom: 3vh;
+  margin-bottom: 0;
   font-family: 'Source Code Pro', monospace;
   color: rgb(80, 80, 80);
 }
