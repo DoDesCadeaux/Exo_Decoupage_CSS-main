@@ -1,0 +1,87 @@
+body {
+    margin: auto;
+}
+
+#newsletter {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#newsletter img {
+    width: 50px;
+    left: 10px;
+    position: absolute;
+    filter: brightness(80);
+}
+
+.logo {
+    display: inline-block;
+}
+
+#champs_newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+}
+
+.menu {
+    display: inline;
+}
+
+.menu  ul {
+    text-decoration: none;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 2px;
+    transition: 1s;
+    width: 0;
+    margin: 0 auto;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.logo img {
+    height: 80px;
+    margin-left: 100px;
+}
+
+.menu ul li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    width:fit-content;
+}
+
+.menu ul li:last-of-type {
+    margin-left: 100px;
+    border-left: 0.5px solid;
+
+}
+
+.menu ul li:first-of-type {
+    margin-left: 75px;
+}
